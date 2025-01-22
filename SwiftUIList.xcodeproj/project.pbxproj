@@ -11,6 +11,9 @@
 		654E10052D408431005E81E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E10042D408431005E81E7 /* ContentView.swift */; };
 		654E10072D408433005E81E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E10062D408433005E81E7 /* Assets.xcassets */; };
 		654E100A2D408433005E81E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E10092D408433005E81E7 /* Preview Assets.xcassets */; };
+		654E10112D408F0F005E81E7 /* AlbumInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E10102D408F0F005E81E7 /* AlbumInfo.swift */; };
+		654E10132D408F43005E81E7 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E10122D408F43005E81E7 /* AlbumView.swift */; };
+		654E10152D409D2D005E81E7 /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E10142D409D2D005E81E7 /* SongsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		654E10042D408431005E81E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		654E10062D408433005E81E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654E10092D408433005E81E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		654E10102D408F0F005E81E7 /* AlbumInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInfo.swift; sourceTree = "<group>"; };
+		654E10122D408F43005E81E7 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		654E10142D409D2D005E81E7 /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				654E10022D408431005E81E7 /* SwiftUIListApp.swift */,
 				654E10042D408431005E81E7 /* ContentView.swift */,
+				654E10122D408F43005E81E7 /* AlbumView.swift */,
+				654E10142D409D2D005E81E7 /* SongsView.swift */,
+				654E10102D408F0F005E81E7 /* AlbumInfo.swift */,
 				654E10062D408433005E81E7 /* Assets.xcassets */,
 				654E10082D408433005E81E7 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654E10112D408F0F005E81E7 /* AlbumInfo.swift in Sources */,
 				654E10052D408431005E81E7 /* ContentView.swift in Sources */,
+				654E10132D408F43005E81E7 /* AlbumView.swift in Sources */,
+				654E10152D409D2D005E81E7 /* SongsView.swift in Sources */,
 				654E10032D408431005E81E7 /* SwiftUIListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
